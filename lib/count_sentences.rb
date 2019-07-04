@@ -15,17 +15,7 @@ class String
   end
 
   def count_sentences
-  key_array = []
-  count_sentences.each do |sentence, punctuation|
-    data.each do |sent1, sent2|
-      sent2.each do |value|
-        if value == ""
-        key_array << count_sentences.keys
-        end
-      end
-    end
-  end
-  key_array.flatten
+    
   end
 end
 
